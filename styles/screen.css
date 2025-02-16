@@ -34,3 +34,14 @@ main {
     text-align: center;
     min-height: 800px;
 }
+
+.hero h2 {
+    font-size: 9em;
+    line-height: 1em;
+    text-transform: uppercase;
+    margin: 0;
+}
+/*
+.details ul li {
+    background: url();
+}*/
