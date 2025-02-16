@@ -1,7 +1,14 @@
+:root {
+    --main-bg-color: #E9E9E9;
+    --primary-text-color: #424242;
+    --accent-color: #FF3F3C;
+}
+
 body {
     font-family: Helvetica, sans-serif;
-    color: #424242;
-    background: #E9E9E9;
+    color: var(--primary-text-color);
+    /*background: var(--main-bg-color);*/
+    background-image: url('images/polaroid.png');
     padding: 0 40px;
     text-align: center;
 }
@@ -12,8 +19,4 @@ h1 {
 
 h3 {
     text-align: left;
-}
-
-.pol-img {
-    width: 500px;
 }
