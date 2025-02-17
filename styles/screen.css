@@ -12,16 +12,26 @@ body {
     background: var(--main-bg-color);
     margin: 0;
     padding: 0;
+    padding-bottom: 50px;
 }
 
 header {
     padding: 20px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 
 header h1 {
     margin: 0;
     font-weight: normal;
+}
+
+h3 {
+    text-align: center;
+    font-size: 64px;
+}
+
+p {
+    font-size: 32px;
 }
 
 main {
@@ -41,7 +51,58 @@ main {
     text-transform: uppercase;
     margin: 0;
 }
-/*
-.details ul li {
-    background: url();
-}*/
+
+ul li {
+    font-size: 32px;
+}
+
+.details ul li.wifi {
+    background: url(../images/wifi.svg) no-repeat center left;
+    background-size: 40px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 100px;
+}
+
+.details ul li.cloud {
+    background: url(../images/cloud.svg) no-repeat center left;
+    background-size: 40px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 100px;
+}
+
+.details ul li.qr {
+    background: url(../images/qrcode.svg) no-repeat center left;
+    background-size: 40px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 100px;
+}
+
+.details ul li.photo {
+    background: url(../images/photo.svg) no-repeat center left;
+    background-size: 40px;
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0 0 0 100px;
+}
+
+form {
+    background: #D6D7D6;
+    border-radius: 25px;
+    height: 150px;
+    padding: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+input {
+    height: 100px;
+}
+
+button {
+    font-weight: bold;
+}
